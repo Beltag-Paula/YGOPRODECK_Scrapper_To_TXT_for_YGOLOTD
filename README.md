@@ -1,4 +1,4 @@
-# 🃏 YGOPRODECK_Scrapper_To_YCS_for_YGOLOTD
+# 🃏 YGOPRODECK_Scrapper_To_TXT_for_YGOLOTD
 
 A lightweight web-based Node.js tool that **scrapes Yu-Gi-Oh! decklists from YGOPRODeck** and exports them into a **`.txt` format compatible with YGO Legacy of the Duelist: Link Evolution (YGOLOTD)** modding tools such as **YDC Converter**.
 
