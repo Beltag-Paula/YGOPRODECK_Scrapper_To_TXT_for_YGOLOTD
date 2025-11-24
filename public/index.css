@@ -1,0 +1,40 @@
+body{
+    background-image: url('background.avif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 350px;
+}
+
+.myClass{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:30px;
+}
+
+.myProgram{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    position: relative;
+}
+
+.myProgram * {
+    padding: 10px;
+    width:50%;
+    text-align: center;
+}
+
+.myResources{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 100px;
+    width:25%;
+    height: 25%;
+    margin-left: 300px;
+    position: relative;
+}
